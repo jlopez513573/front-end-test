@@ -1,0 +1,27 @@
+.activity-title {
+  @include section-title;
+}
+.activity {
+  margin-bottom: 37px;
+}
+
+.activity-item {
+  @include border-radius;
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: $lightGray;
+  margin-bottom: 14px;
+}
+.activity-item__icon {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: $primaryActive;
+  margin-right: 17px;
+}
+.activity-item__text {
+  color: $secondaryTextColor;
+  font-size: 16px;
+  line-height: 26px;
+}

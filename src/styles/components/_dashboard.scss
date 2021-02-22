@@ -1,0 +1,19 @@
+.dashboard-title {
+  @include section-title;
+}
+.dashboard {
+  @include section;
+  background-color: $primary;
+  padding: 44px 379px;
+  margin-bottom: 50px;
+  h1 {
+    @include white-font;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.86px;
+  }
+  p {
+    @include white-font;
+    font-size: 18px;
+  }
+}

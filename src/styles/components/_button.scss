@@ -1,0 +1,14 @@
+.button {
+  border-radius: 17px;
+  padding: 19px;
+  border: none;
+  color: $white;
+  font-size: 13px;
+  line-height: 16px;
+  &:focus {
+    outline: none;
+  }
+  &.button-default {
+    background-color: $primaryActive;
+  }
+}

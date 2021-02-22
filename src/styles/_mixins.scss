@@ -1,0 +1,19 @@
+@mixin white-font {
+  color: $white;
+}
+
+@mixin section {
+  border-radius: 15px;
+}
+
+@mixin section-title {
+  color: $mainTextColor;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.86px;
+  margin-bottom: 50px;
+}
+
+@mixin border-radius {
+  border-radius: 15px;
+}

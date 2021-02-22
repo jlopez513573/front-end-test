@@ -1,0 +1,55 @@
+.progress {
+  display: flex;
+}
+
+.progress-overview {
+  @include border-radius;
+  background-color: $primaryDark;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 36px;
+  margin-right: 72px;
+  h1 {
+    color: $white;
+  }
+}
+.progress-overview__chart {
+  width: 160px;
+  height: 160px;
+}
+
+.progress-section {
+  flex: 2;
+}
+
+.progress-insights__container {
+  border-radius: 30px;
+  padding: 23px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgba($lightGray, 0.13);
+  display: flex;
+  justify-content: space-evenly;
+  color: $white;
+}
+.progress-insights {
+  /*padding: 10px 15px;*/
+}
+.progress-insights__title {
+  display: flex;
+  align-items: center;
+}
+.progress-insights__icon {
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
+}
+.progress-insights__value {
+  font-size: 45px;
+  span {
+    font-size: 24px;
+  }
+}

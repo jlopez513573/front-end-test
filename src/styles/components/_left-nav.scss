@@ -1,0 +1,26 @@
+.leftnav {
+  background-color: $primary;
+  width: 57px;
+}
+
+.nav-icon {
+  width: 57px;
+  height: 57px;
+  padding: 0px;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: $primary;
+  cursor: pointer;
+  &:hover {
+    background-color: $primaryActive;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.nav-icon--active {
+    background-color: $primaryActive;
+  }
+}

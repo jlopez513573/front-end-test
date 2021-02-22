@@ -1,0 +1,63 @@
+.events-title {
+  @include section-title;
+}
+.events {
+  height: 280px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.events-slider {
+  @include section;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  background-color: $orange;
+  padding: 0px 110px;
+  margin-right: 24px;
+  p {
+    @include white-font;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.14px;
+  }
+}
+.events-today {
+  flex: 1;
+  h2 {
+    font-size: 15px;
+    line-height: 26px;
+    color: $mainTextColor;
+    margin-bottom: 30px;
+  }
+}
+
+.event-item {
+  @include border-radius;
+  background-color: $lightGray;
+  padding: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+.event-item__icon {
+  @include border-radius;
+  background-color: $primaryActive;
+  width: 62px;
+  height: 62px;
+}
+.event-item__info {
+  margin-left: 19px;
+}
+.event-item__info-time {
+  color: $secondaryTextColor;
+  font-size: 16px;
+  line-height: 20px;
+}
+.event-item__info-title {
+  color: $primaryTextColor;
+  font-size: 18px;
+  line-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
